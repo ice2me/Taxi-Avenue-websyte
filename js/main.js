@@ -1,30 +1,13 @@
-	let inputs = document.querySelectorAll('input[data-rules]');
-	for (let input of inputs)
-	input.addEventListener ('blur', function() {
-	let rules = this.dataset.rules;
-	let value = this.value;
-	let check;
-
-	switch (rules) {
-	case 'tel':
-	check =  /^\d+$/.test(value);
-	break;
-}
+$ (function(){
+	$('.gallary__inner').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tLoading: 'Loading image #%curr%...',
+		mainClass: 'mfp-img-mobile',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+		},
+	});
 });
-
-case 'email':
-break;
-
-	if (check) {
-		this.classList.add('valid');
-	else {
-		this.classList.add('invalid');
-}
-	if (check) {
-		this.classList.remove('invalid');
-		this.classList.add('valid');
-}
-	else {
-		this.classList.remove('valid');
-		this.classList.add('invalid');
-}

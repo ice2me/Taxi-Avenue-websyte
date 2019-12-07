@@ -1,205 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA_Compatible" content="ie=edge">
-    <title>Taxi</title>
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<meta http-equiv="X-UA_Compatible" content="ie=edge">
+	<title>Taxi</title>
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Shadows+Into+Light&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/start.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="container">
-	<header class="header">
-		<div class="header__main">
-			<div class="header__logo">
-				<a href="#">
-					<img src="img/logo.png" width="250px" height="70px">
+	<div id="p_prldr">
+		<div class="contpre">
+		<span class="svg_anm"></span>
+			<br/><br/>
+		</div>
+	</div>
+	
+	<section>
+		<div class="start">
+			<div class="start__name">
+				<h1>Avenue Taxi</h1>
+				<h2>welcome...</h2>
+			</div>
+			<div class="start__button">
+				<a href="indexKiev.html">
+					<button name="read-more" value="button" type="sumbit">
+					<p>Kiev city</p>
+				</button>
+				</a>
+				<a href="indexKharkov.html">
+				<button name="read-more" value="button" type="sumbit">
+					<p>Kharkov city</p>
+				</button>
+				</a>
+				<a href="indexDnieper.html">
+				<button name="read-more" value="button" type="sumbit">
+					<p>Dnepr city</p>
+				</button>
 				</a>
 			</div>
-			<div class="header__links">
-				<nav class="header__menu">
-					<ul>
-						<li><a href="#">Home</a></li>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Features</a></li>
-						<li><a href="#">Blog</a></li>
-						<li><a href="#">Order Now</a></li>
-						<li><a href="#">Contacts</a></li>
-					</ul>
-				</nav>
-			</div>
-		</div>
-		<div class="header__word">
-			<div class="header__name">
-					<h1>BOOK CAB NOW</h1>
-			</div>
-				<div class="header__number">
-					<a href="tel:+380669696402"><h3>+380669696402</h3></a>
-				</div>
-					<div class="header__websyte">
-						<a href="#">www.avenuetaxi</a>
-					</div>
-		</div>
-		<div class="header__img">
-			<img src="img/PlaceCarImagehere.png" alt="Header Image"width="550px" height="320px">
-		</div>
-	</header>
-	<section>
-		<div class="best">
-			<div class="best__left">
-				<div class="best__name">
-					<h3>Best in sity</h3>
-				</div>
-					<div class="best__name-servies">
-						<h2>Trusted cab servies in kyiv</h2>
-					</div>
-						<span class="best__text">
-							<p>
-								Quisque sollicitudin feugiat risus,
-								eu posuere ex euismod eu. Phasellus hendrerit,
-								massa efficitur dapibus pulvinar, sapien eros
-								sodales ante, euismod aliquet nulla metus a mauris.
-								Quisque sollicitudin feugiat risus,Quisque sollicitudin feugiat risus,
-								eu posuere ex euismod eu. Phasellus hendrerit,
-								massa efficitur dapibus pulvinar, sapien eros
-								sodales ante, euismod aliquet nulla metus a mauris.
-								Quisque sollicitudin feugiat risus,
-								eu posuere ex euismod eu. Phasellus hendrerit,
-								massa efficitur dapibus pulvinar, sapien eros
-								sodales ante, euismod aliquet nulla metus a mauris.
-								eu posuere ex euismod eu. Phasellus hendrerit,
-								massa efficitur dapibus pulvinar, sapien eros
-								sodales ante, euismod aliquet nulla metus a mauris.
-							</p>
-						</span>
-						<div class="best__button">
-							<form action="#">
-								<button name="read-more" value="button" type="sumbit">
-									Read More
-								</button>
-							</form>
-						</div>
-			</div>
-			<div class="best__right">
-					<div class="box__name">
-						<h3>Book a <span class="cab">CAB</span></h3>
-					</div>
-					<div class="box">
-						<div class="box__forms">
-							<lable>
-								<input type="text" name="first__name" pattern="^[a-zA-Z]+$" autocomplete="on" placeholder="Name" required="required">
-							</lable>
-							<lable>
-								<input type="number" name="tel" data-rules="tel" pattern="2[0-9]{3}-[0-9]{2}" autocomplete="on" placeholder="Phone" required="required" maxlength="13">
-							</lable>
-							<lable>
-								<input type="text" name="place" pattern="^[a-zA-Z]+$" autocomplete="on" placeholder="When" required="required">
-							</lable>
-							<!-- <lable>
-								<input type="time" name="time" autocomplete="on" placeholder="Time" required="required">
-							</lable> -->
-						</div>
-						<div class="box__choose">
-							<lable>
-								<input type="text" name="choose" list="#" pattern="^[a-zA-Z]+$" placeholder="Choose Vehicle" required="required">
-							</lable>
-						</div>
-							<div class="box__button">
-									<form action="#">
-										<button name="read-more" value="button" type="sumbit">
-											Submit
-										</button>
-									</form>
-							</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section>
-		<div class="tariffs">
-			<div class="tariffs__name">
-				<h2>our
-					<span>
-						TARIFFS
-					</span>
-				</h2>
-			</div>
-			<div class="tariffs__card">
-				<div class="tariffs__box">
-					<div class="tariffs__content">
-						<img src="img/Layer 1 copy.png" alt="car card" width="250px" height="170px">
-						<div class="tariffs__content-name">
-							<h3>Economy Class</h3>
-						</div>
-						<div class="tariffs__content-text">
-						<span>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-							Nesciunt, temporibus! Consequuntur asperiores. 
-						</span>
-						</div>
-						<div class="tariffs__content-price">
-							<h2>50$</h2>
-						</div>
-						<div class="tariffs__content-button">
-							<button name="read-card" value="button" type="sumbit">
-								Read More
-							</button>
-						</div>
-					</div>
-				</div>
-				
-				<div class="tariffs__box">
-					<div class="tariffs__content">
-						<img src="img/Layer 1 copy.png" alt="car card" width="250px" height="170px">
-						<div class="tariffs__content-name">
-							<h3>Standart Class</h3>
-						</div>
-						<div class="tariffs__content-text">
-						<span>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-							Nesciunt, temporibus! Consequuntur asperiores. 
-						</span>
-						</div>
-						<div class="tariffs__content-price">
-							<h2>70$</h2>
-						</div>
-						<div class="tariffs__content-button">
-							<button name="read-card" value="button" type="sumbit">
-								Read More
-							</button>
-						</div>
-					</div>
-				</div>
-				
-				<div class="tariffs__box">
-					<div class="tariffs__content">
-						<img src="img/Layer 1 copy.png" alt="car card" width="250px" height="170px">
-						<div class="tariffs__content-name">
-							<h3>Business Class</h3>
-						</div>
-						<div class="tariffs__content-text">
-						<span>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-							Nesciunt, temporibus! Consequuntur asperiores. 
-						</span>
-						</div>
-						<div class="tariffs__content-price">
-							<h2>90$</h2>
-						</div>
-						<div class="tariffs__content-button">
-							<button name="read-card" value="button" type="sumbit">
-								Read More
-							</button>
-						</div>
-					</div>
-				</div>
-			</div>
+
 		</div>
 	</section>
 
-	<footer></footer>
-</div>
+
+
+
+
+
+	<script
+		type="text/javascript"
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js">
+		</script>
+	<script type="text/javascript">
+		$(window).on("load", function() {
+		var $preloader = $("#p_prldr"),
+			$svg_anm = $preloader.find(".svg_anm");
+			$svg_anm.fadeOut();
+			$preloader.delay(250).fadeOut("fast");
+		});
+	</script>
 <script src="js/main.js"></script>
 </body>
 </html>
