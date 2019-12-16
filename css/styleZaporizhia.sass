@@ -1,0 +1,813 @@
+*
+	padding: 0
+	margin: 0
+	border: 0
+	transition: .5s ease-in-out
+	box-sizing: border-box
+*:before *:after
+	-moz-box-sizing: border-box
+	-webkit-box-sizing: border-box
+	box-sizing: border-box
+a:focus,a:active
+	outline: none
+nav,footer,header,aside
+	display: block
+html,body
+		height: 100%
+		width: 100%
+		font-size: 100%
+		line-height: 1
+		font-size: 14px
+		padding: 0px 30px 0px 30px
+		font-family: 'Raleway', sans-serif
+		-ms-text-size-adjust: 100%
+		-moz-text-size-adjust: 100%
+		-webkit-text-size-adjust: 100%
+input,button,textarea
+	// font-family: inherit
+input::-ms-clear
+	display: none
+input
+	&::-webkit-input-placeholder
+		color: grey
+		padding: 10px
+		text-overflow: ellipsis
+	&::-moz-placeholder
+		color: grey
+		padding: 10px
+		text-overflow: ellipsis
+	&:-ms-input-placeholder
+		color: grey
+		padding: 10px
+		text-overflow: ellipsis
+		
+	&::-webkit-inner-spin-button,
+		::-webkit-outer-spin-button
+		-webkit-appearance: none
+	&[type='number']
+		-moz-appearance: textfield
+button
+	cursor: pointer
+button::-moz-focus-inner
+	padding: 0
+	border: 0
+a,a:visited
+	text-decoration: none
+a:hover
+	text-decoration: none
+ul li
+	list-style: none
+img
+	// vertical-align: top
+h1,h2,h3,h4,h5,h6
+	font-size: inherit
+	// font-weight: inherit
+/*----------------------------Start--Project----------------*/
+
+.container
+	max-width: 1600px
+	min-width: 600px
+	width: 100%
+	padding: 0.5% 0.5% 0 0.5%
+	@media (max-width: 1200px)
+		max-width: 992px
+	@media (max-width: 991px)
+		max-width: 768px
+	@media (max-width: 767px)
+		max-width: 576px
+	@media (max-width: 575px)
+		max-width: 420px
+	@media (max-width: 419px)
+		max-width: auto
+		margin: 0 auto
+.header
+	background-image: url(../img/Layer3.png)
+	background-repeat: no-repeat 
+	position: relative
+	&__logo
+			padding: 15px 30px 0px 30px
+	&__main
+		display: flex
+		-webkit-justify-content: space-between
+		justify-content: space-between
+		-webkit-flex-direction: row
+		-ms-flex-direction: row
+		flex-direction: row
+		-webkit-flex-wrap: wrap
+		-ms-flex-wrap: wrap
+		flex-wrap: wrap
+	&__links
+		display: flex
+		-webkit-flex-wrap: wrap
+		-ms-flex-wrap: wrap
+		flex-wrap: wrap
+		padding: 40px 20px
+		@media (max-width: 1020px)
+			padding: 9px 5px 5px 5px
+			
+	&__menu
+		ul
+			display: flex
+			-webkit-justify-content: flex-start
+			justify-content: flex-start
+			-webkit-flex-wrap: wrap
+			-ms-flex-wrap: wrap
+			flex-wrap: wrap
+			height: 30px
+			padding-right: 50px
+			li
+				padding: 3px 5px
+				a
+					font-size: 16px
+					color: white
+					display: inline-block
+					padding: 10px
+					border-radius: 12%
+					background-color: rgba(205, 214, 219, 0.1)
+					&:hover
+						background-color: #3984ac
+						font-size: 25px
+
+	&__word
+		height: 300px
+		display: flex
+		-webkit-align-items: center
+		align-items: center
+		-webkit-flex-direction: column
+		-ms-flex-direction: column
+		flex-direction: column
+		-webkit-flex-wrap: wrap
+		-ms-flex-wrap: wrap
+		flex-wrap: wrap
+		padding-top: 80px
+	&__name
+		h1
+			font-size: 50px
+			color: white
+			font-weight: bold
+			padding: 15px 0
+	&__number
+		h3
+			font-size: 35px
+			color: #3984ac
+			font-weight: bold
+			padding: 10px 0
+			&:hover
+				font-size: 38px
+	&__websyte
+		a
+			font-size: 30px
+			color: white
+			font-weight: bold
+			&:hover
+				font-size: 33px
+	&__img
+		display: flex
+		-webkit-justify-content: center
+		justify-content: center
+		padding: 10px 0 0 0
+		img
+			width: 60%
+			height: 60%
+			margin: 0 auto
+
+
+// ----------------------2 section------------------
+
+// left
+.best
+	width: 100%
+	background-color: #3984ac
+	padding: 250px 5% 2% 5%
+	display: flex
+	-webkit-justify-content: space-around
+	justify-content: space-around
+	margin: -250px 0 0 0
+	@media (max-width: 576px)
+		max-width: none
+		display: flex
+		-webkit-flex-direction: column-reverse
+		-ms-flex-direction: column-reverse
+		flex-direction: column-reverse
+	@media (max-width: 768px)
+		max-width: 767%
+		display: flex
+		-webkit-flex-direction: column-reverse
+		-ms-flex-direction: column-reverse
+		flex-direction: column-reverse
+		padding: 150px 20px 20px 20px
+	@media (max-width: 992px)
+		max-width: 991px
+	&__left
+		display: flex
+		-webkit-flex-direction: column
+		-ms-flex-direction: column
+		flex-direction: column
+		padding: 30px 0 5px 0
+		@media (max-width: 549px)
+		max-width: none
+		@media (max-width: 700px)
+		max-width: 550px
+		@media (max-width: 900px)
+		max-width: 700px
+	&__name
+	h3
+		font-size: 30px
+		font-weight: bold
+		padding: 10px 20px 5px 10px
+	&__name-servies
+	h2
+		font-size: 60px
+		font-weight: bold
+		padding: 0px 20px 50px 10px
+	&__texth2
+	p
+		font-size: 22px
+		font-weight: bold
+		padding: 10px 20px 50px 10px
+	&__button
+		padding: 20px 20px 60px 10px
+	button
+		width: 150px
+		height: 50px
+		font-size: 20px
+		font-weight: bold
+		background-color: black
+		color: white
+		-webkit-border-radius: 20%
+		border-radius: 10px
+		-webkit-box-shadow: 2px 3px 8px 2px black
+			box-shadow: 2px 3px 8px 2px black
+		&:hover
+			width: 160px
+			height: 55px
+			font-size: 25px
+
+// right
+.best__right
+	width: 40%
+	padding: 40px 0 0 0
+	@media (max-width: 426px)
+		width: 100%
+	@media (max-width: 700px)
+		width: 100%
+	@media (max-width: 900px)
+		width: 100%
+		padding-top: 140px
+.cab
+	font-size: 38px
+	color: #3984ac
+	padding: 0 0 0 10px
+.box
+	height: 330px
+	border: 2px solid #3984ac
+	text-align: center
+	&__name
+		border: 3px solid black
+		background: black
+		color: white
+		padding: 10px 0 10px 20px
+	&__forms
+		width: 90%
+		margin: 0 auto
+		padding: 20px 0 0 0
+		
+		input
+			width: 99%
+			height: 40px
+			border: 1px solid black
+			-webkit-border-radius: 5px
+			border-radius: 5px
+			margin: 10px auto
+			-webkit-box-shadow: 2px 3px 8px 2px black
+			box-shadow: 2px 3px 8px 2px black
+			&:focus
+				border: 3px solid blue
+
+	&__button
+		padding: 40px 0
+		button
+			font-size: 25px
+			-webkit-box-shadow: 2px 3px 8px 2px black
+				box-shadow: 2px 3px 8px 2px black
+			width: 70%
+			height: 50px
+			&:hover
+				width: 60%
+				height: 55px
+				font-size: 30px
+				color: #3750ac
+				&:focus
+					background: white
+					color: black 
+#user__name,#user__tel,#user__place,#user__choose
+	padding: 0 20px
+	font-size: 25px
+#user__tel
+	text-decoration: none
+// ----------------------3 section------------------
+
+.tariffs
+	width: 100%
+	-ms-text-align-last: center
+	text-align-last: center
+	display: flex
+	-webkit-flex-direction: column
+	-ms-flex-direction: column
+	flex-direction: column
+	&__name
+		padding: 50px
+		font-weight: bold
+		h2
+		font-size: 50px
+		color: #3984ac
+		span
+			font-size: 60px
+			color: black
+	&__card
+		display: flex
+		-webkit-flex-direction: row
+		-ms-flex-direction: row
+		flex-direction: row
+		-webkit-justify-content: flex-start
+		justify-content: flex-start
+		-webkit-flex-wrap: wrap
+		-ms-flex-wrap: wrap
+		flex-wrap: wrap
+		text-align: center
+		padding-bottom: 50px
+		margin: 15px 5px 15px 30px
+	&__box
+		width: 32%
+		padding: 12px 50px
+		margin: 0 auto
+		@media (max-width: 1400px)
+			-webkit-flex: 50% 
+			-ms-flex: 50% 
+			flex: 50% 
+		@media (max-width: 1000px)
+			-webkit-flex: 100% 
+			-ms-flex: 100% 
+			flex: 100% 
+			display: flex
+			-webkit-align-items: center
+			align-items: center
+
+.tariffs__content
+	border: 2px solid #f5f4f2
+	width: 370px
+	height: 520px
+	display: flex
+	-webkit-flex-direction: column
+	-ms-flex-direction: column
+	flex-direction: column
+	-webkit-align-items: center
+	align-items: center
+	padding: 15px
+	background: #f5f4f2
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5)
+	box-shadow: 0 0 10px rgba(0,0,0,0.5)
+	&:hover
+			background: #c1c0bf
+	img
+		width: 100%
+	&-name
+		font-size: 30px
+		padding: 10px 15px
+		font-weight: bold
+	&-text
+		font-size: 20px
+		padding: 10px 15px
+	&-price
+		font-size: 30px
+		padding: 10px 15px
+	&-button
+		width: 90%
+		height: 50px
+		padding: 10px 15px
+		button
+			width: 100%
+			height: 50px
+			font-size: 20px
+			background: #3984ac
+			color: black
+			-webkit-border-radius: 7px
+			border-radius: 7px
+			&:hover
+				background: black
+				color: white
+				
+
+
+// ----------------------------------4 section----------------------
+.wishbg
+	background-image: url(../img/PLaceBGimage.png)
+	background-repeat: no-repeat
+	position: relative
+.wish
+	margin: 0 auto
+	text-align: center
+	padding-bottom: 70px
+	@media (max-width: 550px)
+		width: 100%
+		margin: 0 auto
+		padding: 5px
+	&__titel
+		padding: 90px 0 100px 0
+		@media (max-width: 1025px)
+			padding: 50px 0 20px 0
+		&-name
+			font-size: 30px
+			color: #3984ac
+		&-text
+			font-size: 40px
+			color: white
+	&__body
+		width: 100%
+		max-width: 1200px
+		display: flex
+		-webkit-justify-content: space-around
+		justify-content: space-around
+		-webkit-align-items: stretch
+		align-items: stretch
+		margin: 0 auto
+		@media (max-width: 1025px)
+			width: 100%
+			display: flex
+			-webkit-flex-direction: column
+			-ms-flex-direction: column
+			flex-direction: column
+			-webkit-align-items: center
+			align-items: center
+		&-home, &-boneses, &-fast, &-gps
+			display: flex
+			-webkit-justify-content: flex-start
+			justify-content: flex-start
+			-webkit-align-items: center
+			align-items: center
+		&-home, &-fast
+			padding-bottom: 80px
+			@media (max-width: 1025px)
+				padding-bottom: 15px
+
+	&__left
+	&__right
+	&__img
+		width: 80px
+		height: 80px
+		border: 1px solid #3984ac
+		-webkit-border-radius: 100%
+		border-radius: 100%
+		background: #3984ac
+		img
+			position: relative
+			top: 25px
+.home__content, .bonuses__content,
+.fast__content, .gps__content
+	width: 370px
+	display: flex
+	-webkit-flex-direction: column
+	-ms-flex-direction: column
+	flex-direction: column
+	padding: 0 0 0 50px
+	h3
+		font-size: 22px
+		text-align: left
+		padding: 20px 0 15px 0
+		color: #3984ac
+	span
+		font-size: 16px
+		text-align: left
+		color: white 
+.wish__footer
+.wish__footer-button
+		padding-top: 80px
+		button
+			width: 170px
+			height: 50px
+			font-size: 20px
+			background: #3984ac
+			color: black
+			-webkit-border-radius: 7px
+			border-radius: 7px
+			&:hover
+				width: 170px
+				height: 50px
+				background: black
+				color: #3984ac
+
+
+// ----------------------------------5 section----------------------
+
+
+.cabServies
+	background: white
+	margin: 0 auto
+	text-align: center
+	height: 700px
+	&__name
+		padding: 70px 0 50px 0
+		h2
+			font-size: 35px
+			padding-top: 5px
+			font-weight: bold
+			font-size: black
+		span
+			font-size: 30px
+			color: #3984ac
+			font-weight: bold
+	&__body
+		width: 70%
+		margin: 0 auto
+		display: flex
+		-webkit-justify-content: flex-start
+		justify-content: flex-start
+		padding: 50px 0 0 0
+	&__content
+		width: 50%
+		display: flex
+		-webkit-flex-direction: column
+		-ms-flex-direction: column
+		flex-direction: column
+		margin: 0 10px 0 10px
+		@media (max-width: 1340px)
+			margin: 0 auto
+		h3
+			font-size: 22px
+			padding: 10px 10px 40px 10px
+			text-align: left
+			font-weight: bold
+			font-size: black
+		span
+			font-size: 16px
+			padding: 10px 10px 70px 10px
+			text-align: left
+			font-size: black
+		a
+			padding: 60px 10px 6px 10px
+			text-align: left
+			font-weight: bold
+			&:hover
+				padding: 65px 20px 8px 20px
+
+
+	&__img
+	&__bg
+		img
+			position: relative
+			left: 165px
+			bottom: 68px
+			@media (max-width: 1340px)
+				display: none
+				
+
+// -------------------6 section--------------
+.happy-clients
+	background-image: url(../img/PlaceyourImage.png)
+	background-repeat: no-repeat
+	position: relative
+	height: 600px
+.clients
+	margin-top: -52px
+	@media (max-width: 900px)
+		margin-top: 50px
+	@media (max-width: 500px)
+		margin-top: 50px
+	&__name
+		text-align: center
+		padding: 130px 0 100px 0
+		h2
+			color: #3984ac
+			font-size: 30px
+		span
+			color: white
+			font-size: 40px
+	&__coment
+		display: flex
+		-webkit-flex-direction: row
+		-ms-flex-direction: row
+		flex-direction: row
+		margin: 0 auto
+		width: 80%
+	&__blog-left, &__blog-right
+		background-image: url(../img/Rectangle6.png)
+		background-repeat: no-repeat
+		position: relative
+		width: 600px
+		height: 280px
+		display: flex
+		-webkit-flex-direction: column
+		-ms-flex-direction: column
+		flex-direction: column
+		-webkit-align-content: center
+		align-content: center
+		-webkit-flex-wrap: wrap
+		-ms-flex-wrap: wrap
+		flex-wrap: wrap
+		text-align: left
+		margin: 0 auto
+	&__blog-right
+		@media (max-width: 1250px)
+				display: none
+	&__info
+		display: flex
+		-webkit-flex-direction: row
+		-ms-flex-direction: row
+		flex-direction: row
+		img
+			padding: 3px 15px 0 30px
+		&-text
+			display: flex
+			-webkit-flex-direction: column
+			-ms-flex-direction: column
+			flex-direction: column
+			h3
+				color: #3984ac
+				font-size: 35px
+				padding: 3px 18px 0 18px
+.blogs
+	color: white
+	font-size: 16px
+	padding: 40px
+.infos
+	color: white
+	font-size: 30px
+	padding: 3px 18px 0 18px
+
+
+// -------------------7 section--------------
+
+.call24Hour
+	height: 300px
+	background: #3984ac
+	display: flex
+	-webkit-flex-direction: column
+	-ms-flex-direction: column
+	flex-direction: column
+	-webkit-flex-wrap: wrap
+	-ms-flex-wrap: wrap
+	flex-wrap: wrap
+	text-align: center
+	-webkit-align-content: center
+	align-content: center
+	margin: -10px 0
+	h2
+		font-size: 30px
+		color: black
+		padding: 70px 0 45px 0
+		@media (max-width: 923px)
+			font-size: 20px
+.phone__name 
+	h3
+		font-size: 60px
+		color: black
+		height: 70px
+		&:hover
+			border: 1px solid black
+			color: white
+			background: black
+			-webkit-border-radius: 7px
+			border-radius: 7px
+
+
+// -------------------8 section--------------
+footer
+	background-image: url(../img/footerbg.png)
+	background-repeat: no-repeat
+	position: relative
+	display: flex
+	-webkit-flex-direction: row
+	-ms-flex-direction: row
+	flex-direction: row
+.down
+	height: 500px
+	@media (max-width: 1500px)
+		display: flex
+		-webkit-flex-wrap: nowrap
+		-ms-flex-wrap: nowrap
+		flex-wrap: nowrap
+.hub
+	display: flex
+	-webkit-flex-direction: column
+	-ms-flex-direction: column
+	flex-direction: column
+	padding: 50px
+	-webkit-flex: 32% 
+	-ms-flex: 32% 
+	flex: 32% 
+	@media (max-width: 800px)
+		-webkit-flex: 50%
+		-ms-flex: 50%
+		flex: 50%
+		padding: 10px
+	&__name
+		color: white
+		font-size: 25px
+		padding-bottom: 50px 
+		border-bottom: 7px solid #3984ac
+	&__text
+		color: white
+		padding: 70px 15px 45px 0px
+		font-size: 16px
+	&__social
+		img
+			padding: 0 10px 0 0
+			&:hover
+				padding: 0 20px 0 0
+.download
+	display: flex
+	-webkit-flex-direction: column
+	-ms-flex-direction: column
+	flex-direction: column
+	-webkit-flex: 32% 
+	-ms-flex: 32% 
+	flex: 32% 
+	padding: 50px
+	@media (max-width: 1100px)
+		display: none
+	&__name
+		color: white
+		font-size: 25px
+		padding-bottom: 50px 
+		border-bottom: 7px solid #3984ac
+	&__text
+		color: white
+		padding: 70px 15px 45px 0px
+		font-size: 16px
+	&__users
+		color: white
+	&__android
+		padding: 0 20px 15px 0
+		a
+			color: #3984ac
+			padding-top: 10px
+			font-size: 20px
+			&:hover
+				font-size: 22px
+		img
+			padding: 5px 30px
+			text-align: center
+			margin: -12px 
+			@media (max-width: 1250px)
+				display: none
+				margin: 0 auto
+	&__ios
+		padding: 25px 20px 15px 0
+		a
+			color: #3984ac
+			font-size: 20px
+			&:hover
+				font-size: 22px
+		img
+			padding: 5px 30px
+			text-align: center
+			margin: -12px -10px -10px 27px
+			@media (max-width: 1250px)
+				display: none
+				margin: 0 auto
+.contact
+	display: flex
+	-webkit-flex-direction: column
+	-ms-flex-direction: column
+	flex-direction: column
+	-webkit-flex: 32% 
+	-ms-flex: 32% 
+	flex: 32% 
+	padding: 50px
+	min-width: 300px 
+	@media (max-width: 800px)
+		-webkit-flex: 50%
+		-ms-flex: 50%
+		flex: 50%
+		padding: 10px 
+	&__name
+		color: white
+		font-size: 25px
+		padding-bottom: 50px 
+		border-bottom: 7px solid #3984ac
+	&__info
+		padding: 70px 15px 45px 15px
+		a
+			color: white
+			display: flex
+			-webkit-flex-direction: column
+			-ms-flex-direction: column
+			flex-direction: column
+			font-size: 16px
+	&__meta-gps,
+	&__meta-tel,
+	&__meta-email,
+	&__meta-website
+		display: flex
+		-webkit-flex-direction: row
+		-ms-flex-direction: row
+		flex-direction: row
+		padding-top: 25px
+		a
+			width: 240px
+			font-size: 18px
+			&:hover
+				font-size: 20px
+				color: #3984ac
+		img
+			padding-right: 20px

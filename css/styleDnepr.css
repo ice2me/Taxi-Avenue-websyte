@@ -114,6 +114,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 419px) {
   .container {
     max-width: auto;
+    margin: 0 auto;
   }
 }
 
@@ -170,7 +171,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgba(205, 214, 219, 0.1);
 }
 .header__menu ul li a:hover {
-  background-color: #cd5c92;
+  background-color: #ac5185;
   font-size: 25px;
 }
 .header__word {
@@ -194,7 +195,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .header__number h3 {
   font-size: 35px;
-  color: #cd5c92;
+  color: #ac5185;
   font-weight: bold;
   padding: 10px 0;
 }
@@ -223,7 +224,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .best {
   width: 100%;
-  background-color: #cd5c92;
+  background-color: #ac5185;
   padding: 250px 5% 2% 5%;
   display: flex;
   -webkit-justify-content: space-around;
@@ -323,13 +324,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .cab {
   font-size: 38px;
-  color: #cd5c92;
+  color: #ac5185;
   padding: 0 0 0 10px;
 }
 
 .box {
   height: 330px;
-  border: 2px solid #cd5c92;
+  border: 2px solid #ac5185;
   text-align: center;
 }
 .box__name {
@@ -370,7 +371,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 60%;
   height: 55px;
   font-size: 30px;
-  color: #cd5c92;
+  color: #ac5185;
 }
 .box__button button:hover:focus {
   background: white;
@@ -399,7 +400,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 50px;
   font-weight: bold;
   font-size: 50px;
-  color: #cd5c92;
+  color: #ac5185;
 }
 .tariffs__name span {
   font-size: 60px;
@@ -485,7 +486,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 50px;
   font-size: 20px;
-  background: #cd5c92;
+  background: #ac5185;
   color: black;
   -webkit-border-radius: 7px;
   border-radius: 7px;
@@ -523,7 +524,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .wish__titel-name {
   font-size: 30px;
-  color: #cd5c92;
+  color: #ac5185;
 }
 .wish__titel-text {
   font-size: 40px;
@@ -568,10 +569,10 @@ h1, h2, h3, h4, h5, h6 {
 .wish__img {
   width: 80px;
   height: 80px;
-  border: 1px solid #cd5c92;
+  border: 1px solid #ac5185;
   -webkit-border-radius: 100%;
   border-radius: 100%;
-  background: #cd5c92;
+  background: #ac5185;
 }
 .wish__img img {
   position: relative;
@@ -592,7 +593,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 22px;
   text-align: left;
   padding: 20px 0 15px 0;
-  color: #cd5c92;
+  color: #ac5185;
 }
 .home__content span, .bonuses__content span,
 .fast__content span, .gps__content span {
@@ -608,7 +609,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 170px;
   height: 50px;
   font-size: 20px;
-  background: #cd5c92;
+  background: #ac5185;
   color: black;
   -webkit-border-radius: 7px;
   border-radius: 7px;
@@ -617,7 +618,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 170px;
   height: 50px;
   background: black;
-  color: #cd5c92;
+  color: #ac5185;
 }
 
 .cabServies {
@@ -637,7 +638,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .cabServies__name span {
   font-size: 30px;
-  color: #cd5c92;
+  color: #ac5185;
   font-weight: bold;
 }
 .cabServies__body {
@@ -718,7 +719,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 130px 0 100px 0;
 }
 .clients__name h2 {
-  color: #cd5c92;
+  color: #ac5185;
   font-size: 30px;
 }
 .clients__name span {
@@ -772,7 +773,7 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
 }
 .clients__info-text h3 {
-  color: #cd5c92;
+  color: #ac5185;
   font-size: 35px;
   padding: 3px 18px 0 18px;
 }
@@ -791,7 +792,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .call24Hour {
   height: 300px;
-  background: #cd5c92;
+  background: #ac5185;
   display: flex;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
@@ -872,7 +873,7 @@ footer {
   color: white;
   font-size: 25px;
   padding-bottom: 50px;
-  border-bottom: 7px solid #cd5c92;
+  border-bottom: 7px solid #ac5185;
 }
 .hub__text {
   color: white;
@@ -905,7 +906,7 @@ footer {
   color: white;
   font-size: 25px;
   padding-bottom: 50px;
-  border-bottom: 7px solid #cd5c92;
+  border-bottom: 7px solid #ac5185;
 }
 .download__text {
   color: white;
@@ -919,7 +920,7 @@ footer {
   padding: 0 20px 15px 0;
 }
 .download__android a {
-  color: #cd5c92;
+  color: #ac5185;
   padding-top: 10px;
   font-size: 20px;
 }
@@ -941,7 +942,7 @@ footer {
   padding: 25px 20px 15px 0;
 }
 .download__ios a {
-  color: #cd5c92;
+  color: #ac5185;
   font-size: 20px;
 }
 .download__ios a:hover {
@@ -982,7 +983,7 @@ footer {
   color: white;
   font-size: 25px;
   padding-bottom: 50px;
-  border-bottom: 7px solid #cd5c92;
+  border-bottom: 7px solid #ac5185;
 }
 .contact__info {
   padding: 70px 15px 45px 15px;
@@ -1008,7 +1009,7 @@ footer {
 }
 .contact__meta-gps a:hover, .contact__meta-tel a:hover, .contact__meta-email a:hover, .contact__meta-website a:hover {
   font-size: 20px;
-  color: #cd5c92;
+  color: #ac5185;
 }
 .contact__meta-gps img, .contact__meta-tel img, .contact__meta-email img, .contact__meta-website img {
   padding-right: 20px;
