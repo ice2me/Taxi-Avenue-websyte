@@ -18,7 +18,7 @@ html,body
 		font-size: 100%
 		line-height: 1
 		font-size: 14px
-		padding: 0px 30px 0px 30px
+		// padding: 0px 30px 0px 30px
 		font-family: 'Raleway', sans-serif
 		-ms-text-size-adjust: 100%
 		-moz-text-size-adjust: 100%
@@ -66,17 +66,8 @@ h1,h2,h3,h4,h5,h6
 
 .container
 	max-width: 1600px
-	min-width: 600px
 	width: 100%
-	padding: 0.5% 0.5% 0 0.5%
-	@media (max-width: 1200px)
-		max-width: 992px
-	@media (max-width: 991px)
-		max-width: 768px
-	@media (max-width: 767px)
-		max-width: 576px
-	@media (max-width: 575px)
-		max-width: 420px
+	margin: 0 auto
 	@media (max-width: 419px)
 		max-width: auto
 		margin: 0 auto
@@ -181,33 +172,21 @@ h1,h2,h3,h4,h5,h6
 	-webkit-justify-content: space-around
 	justify-content: space-around
 	margin: -250px 0 0 0
-	@media (max-width: 576px)
-		max-width: none
-		display: flex
-		-webkit-flex-direction: column-reverse
-		-ms-flex-direction: column-reverse
-		flex-direction: column-reverse
-	@media (max-width: 768px)
-		max-width: 767%
+	@media (max-width: 901px)
 		display: flex
 		-webkit-flex-direction: column-reverse
 		-ms-flex-direction: column-reverse
 		flex-direction: column-reverse
 		padding: 150px 20px 20px 20px
-	@media (max-width: 992px)
-		max-width: 991px
 	&__left
-		display: flex
-		-webkit-flex-direction: column
-		-ms-flex-direction: column
-		flex-direction: column
 		padding: 30px 0 5px 0
-		@media (max-width: 549px)
-		max-width: none
+		margin: 0 auto
 		@media (max-width: 700px)
 		max-width: 550px
 		@media (max-width: 900px)
 		max-width: 700px
+		@media (max-width: 600px)
+			width: 300px
 	&__name
 	h3
 		font-size: 30px
@@ -218,7 +197,7 @@ h1,h2,h3,h4,h5,h6
 		font-size: 60px
 		font-weight: bold
 		padding: 0px 20px 50px 10px
-	&__texth2
+	&__text
 	p
 		font-size: 22px
 		font-weight: bold
@@ -245,17 +224,15 @@ h1,h2,h3,h4,h5,h6
 .best__right
 	width: 40%
 	padding: 40px 0 0 0
-	@media (max-width: 426px)
-		width: 100%
-	@media (max-width: 700px)
-		width: 100%
-	@media (max-width: 900px)
-		width: 100%
-		padding-top: 140px
-.cab
 	font-size: 38px
 	color: #ef9c17
 	padding: 0 0 0 10px
+	@media (max-width: 900px)
+		width: 100%
+		padding-top: 140px
+		margin: 0 auto
+	@media (max-width: 600px)
+		width: 300px
 .box
 	height: 330px
 	border: 2px solid #ef9c17
@@ -334,6 +311,12 @@ h1,h2,h3,h4,h5,h6
 		text-align: center
 		padding-bottom: 50px
 		margin: 15px 5px 15px 30px
+		@media (max-width: 994px)
+			margin-left: 250px
+		@media (max-width: 800px)
+			margin-left: 140px
+		@media (max-width: 650px)
+			margin-left: 30px
 	&__box
 		width: 32%
 		padding: 12px 50px
@@ -477,6 +460,7 @@ h1,h2,h3,h4,h5,h6
 		text-align: left
 		color: white 
 .wish__footer
+	padding-bottom: 50px
 .wish__footer-button
 		padding-top: 80px
 		button
@@ -654,11 +638,20 @@ h1,h2,h3,h4,h5,h6
 		padding: 70px 0 45px 0
 		@media (max-width: 923px)
 			font-size: 20px
-.phone__name 
+		@media (max-width: 500px)
+			width: 300px
+			margin: 0 auto
+.phone__name
 	h3
 		font-size: 60px
 		color: black
 		height: 70px
+		margin: 0 auto
+		@media (max-width: 923px)
+			font-size: 60px
+		@media (max-width: 500px)
+			font-size: 50px 
+			
 		&:hover
 			border: 1px solid black
 			color: white
@@ -670,19 +663,23 @@ h1,h2,h3,h4,h5,h6
 // -------------------8 section--------------
 footer
 	background-image: url(../img/footerbg.png)
-	background-repeat: no-repeat
+	// background-repeat: no-repeat
 	position: relative
 	display: flex
 	-webkit-flex-direction: row
 	-ms-flex-direction: row
 	flex-direction: row
 .down
-	height: 500px
 	@media (max-width: 1500px)
 		display: flex
-		-webkit-flex-wrap: nowrap
-		-ms-flex-wrap: nowrap
-		flex-wrap: nowrap
+		-webkit-flex-wrap: wrap
+		-ms-flex-wrap: wrap
+		flex-wrap: wrap
+	@media (max-width: 550px)
+		display: flex
+		-webkit-flex-direction: column
+		-ms-flex-direction: column
+		flex-direction: column
 .hub
 	display: flex
 	-webkit-flex-direction: column
@@ -696,7 +693,7 @@ footer
 		-webkit-flex: 50%
 		-ms-flex: 50%
 		flex: 50%
-		padding: 10px
+		padding: 25px
 	&__name
 		color: white
 		font-size: 25px
@@ -720,8 +717,8 @@ footer
 	-ms-flex: 32% 
 	flex: 32% 
 	padding: 50px
-	@media (max-width: 1100px)
-		display: none
+	// @media (max-width: 1100px)
+	// 	display: none
 	&__name
 		color: white
 		font-size: 25px
@@ -776,7 +773,6 @@ footer
 		-webkit-flex: 50%
 		-ms-flex: 50%
 		flex: 50%
-		padding: 10px 
 	&__name
 		color: white
 		font-size: 25px

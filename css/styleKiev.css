@@ -26,7 +26,6 @@ html, body {
   font-size: 100%;
   line-height: 1;
   font-size: 14px;
-  padding: 0px 30px 0px 30px;
   font-family: "Raleway", sans-serif;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
@@ -87,29 +86,8 @@ h1, h2, h3, h4, h5, h6 {
 /*----------------------------Start--Project---------------- */
 .container {
   max-width: 1600px;
-  min-width: 600px;
   width: 100%;
-  padding: 0.5% 0.5% 0 0.5%;
-}
-@media (max-width: 1200px) {
-  .container {
-    max-width: 992px;
-  }
-}
-@media (max-width: 991px) {
-  .container {
-    max-width: 768px;
-  }
-}
-@media (max-width: 767px) {
-  .container {
-    max-width: 576px;
-  }
-}
-@media (max-width: 575px) {
-  .container {
-    max-width: 420px;
-  }
+  margin: 0 auto;
 }
 @media (max-width: 419px) {
   .container {
@@ -231,18 +209,8 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: space-around;
   margin: -250px 0 0 0;
 }
-@media (max-width: 576px) {
+@media (max-width: 901px) {
   .best {
-    max-width: none;
-    display: flex;
-    -webkit-flex-direction: column-reverse;
-    -ms-flex-direction: column-reverse;
-    flex-direction: column-reverse;
-  }
-}
-@media (max-width: 768px) {
-  .best {
-    max-width: 767%;
     display: flex;
     -webkit-flex-direction: column-reverse;
     -ms-flex-direction: column-reverse;
@@ -250,20 +218,16 @@ h1, h2, h3, h4, h5, h6 {
     padding: 150px 20px 20px 20px;
   }
 }
-@media (max-width: 992px) {
-  .best {
-    max-width: 991px;
-  }
-}
 .best__left {
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
   padding: 30px 0 5px 0;
-  max-width: none;
+  margin: 0 auto;
   max-width: 550px;
   max-width: 700px;
+}
+@media (max-width: 600px) {
+  .best__left {
+    width: 300px;
+  }
 }
 .best h3 {
   font-size: 30px;
@@ -304,28 +268,21 @@ h1, h2, h3, h4, h5, h6 {
 .best__right {
   width: 40%;
   padding: 40px 0 0 0;
-}
-@media (max-width: 426px) {
-  .best__right {
-    width: 100%;
-  }
-}
-@media (max-width: 700px) {
-  .best__right {
-    width: 100%;
-  }
+  font-size: 38px;
+  color: #ef9c17;
+  padding: 0 0 0 10px;
 }
 @media (max-width: 900px) {
   .best__right {
     width: 100%;
     padding-top: 140px;
+    margin: 0 auto;
   }
 }
-
-.cab {
-  font-size: 38px;
-  color: #ef9c17;
-  padding: 0 0 0 10px;
+@media (max-width: 600px) {
+  .best__right {
+    width: 300px;
+  }
 }
 
 .box {
@@ -419,6 +376,21 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   padding-bottom: 50px;
   margin: 15px 5px 15px 30px;
+}
+@media (max-width: 994px) {
+  .tariffs__card {
+    margin-left: 250px;
+  }
+}
+@media (max-width: 800px) {
+  .tariffs__card {
+    margin-left: 140px;
+  }
+}
+@media (max-width: 650px) {
+  .tariffs__card {
+    margin-left: 30px;
+  }
 }
 .tariffs__box {
   width: 32%;
@@ -600,6 +572,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 16px;
   text-align: left;
   color: white;
+}
+
+.wish__footer {
+  padding-bottom: 50px;
 }
 
 .wish__footer-button {
@@ -815,11 +791,28 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 20px;
   }
 }
+@media (max-width: 500px) {
+  .call24Hour h2 {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
 
 .phone__name h3 {
   font-size: 60px;
   color: black;
   height: 70px;
+  margin: 0 auto;
+}
+@media (max-width: 923px) {
+  .phone__name h3 {
+    font-size: 60px;
+  }
+}
+@media (max-width: 500px) {
+  .phone__name h3 {
+    font-size: 50px;
+  }
 }
 .phone__name h3:hover {
   border: 1px solid black;
@@ -831,7 +824,6 @@ h1, h2, h3, h4, h5, h6 {
 
 footer {
   background-image: url(../img/footerbg.png);
-  background-repeat: no-repeat;
   position: relative;
   display: flex;
   -webkit-flex-direction: row;
@@ -839,15 +831,20 @@ footer {
   flex-direction: row;
 }
 
-.down {
-  height: 500px;
-}
 @media (max-width: 1500px) {
   .down {
     display: flex;
-    -webkit-flex-wrap: nowrap;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 550px) {
+  .down {
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
 
@@ -866,7 +863,7 @@ footer {
     -webkit-flex: 50%;
     -ms-flex: 50%;
     flex: 50%;
-    padding: 10px;
+    padding: 25px;
   }
 }
 .hub__name {
@@ -896,11 +893,6 @@ footer {
   -ms-flex: 32%;
   flex: 32%;
   padding: 50px;
-}
-@media (max-width: 1100px) {
-  .download {
-    display: none;
-  }
 }
 .download__name {
   color: white;
@@ -976,7 +968,6 @@ footer {
     -webkit-flex: 50%;
     -ms-flex: 50%;
     flex: 50%;
-    padding: 10px;
   }
 }
 .contact__name {

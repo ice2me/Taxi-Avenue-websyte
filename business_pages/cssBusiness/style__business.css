@@ -97,16 +97,18 @@ h1, h2, h3, h4, h5, h6 {
 /*------------Start--Project---------------- */
 .container {
   max-width: 1600px;
-  min-width: 600px;
+  min-width: 450px;
   margin: 0 auto;
 }
 
 .header {
   background: url(../imgBusiness/bgbusiness.jpg);
-  background-color: grey;
   background-repeat: no-repeat;
   position: relative;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .header__content {
   display: flex;
@@ -124,10 +126,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #FFF;
   position: relative;
   top: 50px;
-  right: 10%;
+  right: 3%;
 }
 .header__right {
-  font-size: 50px;
+  font-size: 40px;
   color: #FFF;
   position: relative;
   top: 32%;
@@ -135,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 1400px) {
   .header__right {
-    font-size: 45px;
+    font-size: 35px;
     color: #FFF;
     top: 20px;
     left: 5%;
@@ -143,7 +145,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 1000px) {
   .header__right {
-    font-size: 40px;
+    font-size: 32px;
     color: #FFF;
     top: 30px;
     left: 0%;
@@ -151,7 +153,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 700px) {
   .header__right {
-    font-size: 30px;
+    font-size: 28px;
     color: #FFF;
     position: absolute;
     left: 30%;
@@ -161,7 +163,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 600px) {
   .header__right {
-    font-size: 30px;
+    font-size: 25px;
     color: #FFF;
     position: absolute;
     left: 30%;
@@ -171,7 +173,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 580px) {
   .header__right {
-    font-size: 30px;
+    font-size: 22px;
     color: #FFF;
     position: absolute;
     left: 30%;
@@ -219,13 +221,13 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .header__top-name h3 {
-  font-size: 30px;
-  color: #FFF;
+  font-size: 25px;
+  color: #EF9C17;
 }
 .header__top-text {
-  font-size: 28px;
+  font-size: 22px;
   padding: 5px;
-  color: #FFF;
+  color: #EF9C17;
 }
 .header__forms {
   display: flex;
@@ -239,9 +241,6 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   -webkit-align-content: center;
   align-content: center;
-  padding: 10px;
-}
-.header__forms-link {
   padding: 10px;
 }
 .header__forms-link input {
@@ -259,8 +258,13 @@ h1, h2, h3, h4, h5, h6 {
 .header__forms-link inputplaceholder {
   color: #EF9C17;
 }
+@media (max-width: 600px) {
+  .header__forms-link input {
+    width: 320px;
+  }
+}
 .header__forms-button {
-  padding: 10px;
+  padding: 10px 0 80px 0;
 }
 .header__forms-button button {
   width: 200px;
@@ -314,7 +318,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 500px) {
   .content {
-    left: 3%;
+    left: 7%;
     top: 10%;
     width: 400px;
   }
@@ -365,7 +369,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .content__top-peronal, .content__top-order, .content__top-pay, .content__top-messenger, .content__top-support, .content__down-peronal, .content__down-order, .content__down-pay, .content__down-messenger, .content__down-support {
-  max-width: 32%;
   width: 300px;
   margin: 0 25px;
   padding: 0px 10px 10px 10px;
@@ -383,12 +386,17 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .content__top-peronal h2, .content__top-order h2, .content__top-pay h2, .content__top-messenger h2, .content__top-support h2, .content__down-peronal h2, .content__down-order h2, .content__down-pay h2, .content__down-messenger h2, .content__down-support h2 {
-  font-size: 28px;
+  font-size: 25px;
   padding: 10px;
-  font-size: 20px;
+  font-weight: bold;
 }
-.content__top-peronal span, .content__top-order span, .content__top-pay span, .content__top-messenger span, .content__top-support span, .content__down-peronal span, .content__down-order span, .content__down-pay span, .content__down-messenger span, .content__down-support span {
-  font-size: 18px;
+@media (max-width: 1000px) {
+  .content__top-peronal h2, .content__top-order h2, .content__top-pay h2, .content__top-messenger h2, .content__top-support h2, .content__down-peronal h2, .content__down-order h2, .content__down-pay h2, .content__down-messenger h2, .content__down-support h2 {
+    font-size: 20px;
+  }
+}
+.content__top-peronal h2 span, .content__top-order h2 span, .content__top-pay h2 span, .content__top-messenger h2 span, .content__top-support h2 span, .content__down-peronal h2 span, .content__down-order h2 span, .content__down-pay h2 span, .content__down-messenger h2 span, .content__down-support h2 span {
+  font-size: 20px;
   width: 90%;
   padding: 10px;
 }
@@ -447,7 +455,7 @@ h1, h2, h3, h4, h5, h6 {
 .forms__name {
   margin: 0 auto;
   padding: 120px 0 30px 0;
-  width: 51%;
+  width: 85%;
   font-size: 40px;
   text-align: center;
   color: #090f0f;
@@ -471,7 +479,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 700px) {
   .forms__box {
-    width: 80%;
+    width: 90%;
   }
 }
 .forms__box input {
@@ -540,7 +548,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #ffff;
 }
 .forms__social {
-  padding: 80px 50px 50px 0;
+  padding: 50px 10px 50px 0;
   margin: 0 auto;
   display: flex;
   flex-direction: row;

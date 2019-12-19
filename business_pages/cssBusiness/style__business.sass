@@ -67,14 +67,16 @@ h1,h2,h3,h4,h5,h6
 
 .container
 	max-width: 1600px
-	min-width: 600px
+	min-width: 450px
 	margin: 0 auto
 .header
 	background: url(../imgBusiness/bgbusiness.jpg)
-	background-color: grey
 	background-repeat: no-repeat
 	position: relative
 	height: 100%
+	display: flex
+	flex-direction: column
+	align-items: center
 	&__content
 		display: flex
 		-webkit-flex-direction: row
@@ -90,39 +92,40 @@ h1,h2,h3,h4,h5,h6
 		color: #FFF
 		position: relative
 		top: 50px
-		right: 10%
+		right: 3%
 	&__right
-		font-size: 50px
+		font-size: 40px
 		color: #FFF
 		position: relative
 		top: 32%
 		left: 10%
+		
 		@media (max-width: 1400px)
-			font-size: 45px
+			font-size: 35px
 			color: #FFF
 			top: 20px
 			left: 5%
 		@media (max-width: 1000px)
-			font-size: 40px
+			font-size: 32px
 			color: #FFF
 			top: 30px
 			left: 0%
 		@media (max-width: 700px)
-			font-size: 30px
+			font-size: 28px
 			color: #FFF
 			position: absolute
 			left: 30%
 			top: 32%
 			margin: 10px auto
 		@media (max-width: 600px)
-			font-size: 30px
+			font-size: 25px
 			color: #FFF
 			position: absolute
 			left: 30%
 			top: 32%
 			margin: 10px auto
 		@media (max-width: 580px)
-			font-size: 30px
+			font-size: 22px
 			color: #FFF
 			position: absolute
 			left: 30%
@@ -159,12 +162,12 @@ h1,h2,h3,h4,h5,h6
 			padding: 0 0 0 50px
 	&__top-name
 		h3
-			font-size: 30px
-			color: #FFF
+			font-size: 25px
+			color: #EF9C17
 	&__top-text
-		font-size: 28px
+		font-size: 22px
 		padding: 5px
-		color: #FFF
+		color: #EF9C17
 	&__forms
 		display: flex
 		flex-direction: column
@@ -178,7 +181,6 @@ h1,h2,h3,h4,h5,h6
 			align-content: center
 			padding: 10px
 		&-link
-			padding: 10px
 			input
 				padding: 5px
 				margin: 3px
@@ -192,8 +194,10 @@ h1,h2,h3,h4,h5,h6
 				background-color: #58606d
 				&placeholder
 					color: #EF9C17
+				@media (max-width: 600px)
+					width: 320px
 		&-button
-			padding: 10px
+			padding: 10px 0 80px 0
 			button
 				width: 200px
 				height: 50px
@@ -234,7 +238,7 @@ h1,h2,h3,h4,h5,h6
 		top: 10%
 		width: 420px
 	@media (max-width: 500px)
-		left: 3%
+		left: 7%
 		top: 10%
 		width: 400px
 	&__name
@@ -271,7 +275,6 @@ h1,h2,h3,h4,h5,h6
 			height: 100%
 			padding: 0
 		&-peronal, &-order,&-pay, &-messenger, &-support
-			max-width: 32%
 			width: 300px
 			margin: 0 25px
 			padding: 0px 10px 10px 10px
@@ -283,14 +286,15 @@ h1,h2,h3,h4,h5,h6
 				text-align: center
 			img
 			h2
-				font-size: 28px
+				font-size: 25px
 				padding: 10px
+				font-weight: bold
 				@media (max-width: 1000px)
-				font-size: 20px
-			span
-				font-size: 18px
-				width: 90%
-				padding: 10px
+					font-size: 20px
+				span
+					font-size: 20px
+					width: 90%
+					padding: 10px
 
 
 
@@ -328,7 +332,7 @@ h1,h2,h3,h4,h5,h6
 	&__name
 		margin: 0 auto
 		padding: 120px 0 30px 0
-		width: 51%
+		width: 85%
 		@media (max-width: 700px)
 			padding: 30px 0
 		h2
@@ -344,7 +348,7 @@ h1,h2,h3,h4,h5,h6
 		flex-direction: column
 		align-items: center
 		@media (max-width: 700px)
-			width: 80%
+			width: 90%
 		input
 			display: flex
 			-webkit-flex-direction: column
@@ -395,7 +399,7 @@ h1,h2,h3,h4,h5,h6
 			&:hover
 				background-color: #ffff
 	&__social
-		padding: 80px 50px 50px 0
+		padding: 50px 10px 50px 0
 		margin: 0 auto
 		display: flex
 		flex-direction: row
