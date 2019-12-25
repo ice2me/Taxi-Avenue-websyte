@@ -173,7 +173,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 8px;
   }
 }
-.menu li a:hover {
+.menu li a:hover, .menu li a:focus {
   background: #e47ffd;
   -webkit-border-radius: 3px;
   border-radius: 3px;
@@ -275,7 +275,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   padding: 10px 0;
 }
-.header__number h3:hover {
+.header__number h3:hover, .header__number h3:focus {
   font-size: 38px;
 }
 .header__websyte a {
@@ -283,7 +283,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #d1d1d1;
   font-weight: bold;
 }
-.header__websyte a:hover {
+.header__websyte a:hover, .header__websyte a:focus {
   font-size: 33px;
 }
 .header__img {
@@ -355,7 +355,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-border-radius: 7px;
   border-radius: 7px;
 }
-.best button:hover {
+.best button:hover, .best button:focus {
   width: 62%;
   height: 50px;
   background: #d0caca;
@@ -424,7 +424,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-border-radius: 7px;
   border-radius: 7px;
 }
-.box__button button:hover {
+.box__button button:hover, .box__button button:focus {
   width: 62%;
   height: 50px;
   background: #d0caca;
@@ -525,7 +525,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-.tariffs__content:hover {
+.tariffs__content:hover, .tariffs__content:focus {
   background: #c1c0bf;
 }
 .tariffs__content img {
@@ -558,7 +558,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-border-radius: 7px;
   border-radius: 7px;
 }
-.tariffs__content-button button:hover {
+.tariffs__content-button button:hover, .tariffs__content-button button:focus {
   background: black;
   color: #d1d1d1;
 }
@@ -685,7 +685,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-border-radius: 7px;
   border-radius: 7px;
 }
-.wish__footer-button button:hover {
+.wish__footer-button button:hover, .wish__footer-button button:focus {
   width: 170px;
   height: 50px;
   background: black;
@@ -750,7 +750,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: left;
   font-weight: bold;
 }
-.cabServies__content a:hover {
+.cabServies__content a:hover, .cabServies__content a:focus {
   padding: 65px 20px 8px 20px;
 }
 .cabServies__img {
@@ -928,7 +928,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 40px;
   }
 }
-.phone__name h3:hover {
+.phone__name h3:hover, .phone__name h3:focus {
   border: 1px solid black;
   color: #d1d1d1;
   background: black;
@@ -993,7 +993,7 @@ footer {
 .hub__social img {
   padding: 0 10px 0 0;
 }
-.hub__social img:hover {
+.hub__social img:hover, .hub__social img:focus {
   padding: 0 20px 0 0;
 }
 
@@ -1029,7 +1029,7 @@ footer {
   padding-top: 10px;
   font-size: 20px;
 }
-.download__android a:hover {
+.download__android a:hover, .download__android a:focus {
   font-size: 22px;
 }
 .download__android img {
@@ -1050,7 +1050,7 @@ footer {
   color: #e47ffd;
   font-size: 20px;
 }
-.download__ios a:hover {
+.download__ios a:hover, .download__ios a:focus {
   font-size: 22px;
 }
 .download__ios img {
@@ -1111,7 +1111,7 @@ footer {
   width: 240px;
   font-size: 18px;
 }
-.contact__meta-gps a:hover, .contact__meta-tel a:hover, .contact__meta-email a:hover, .contact__meta-website a:hover {
+.contact__meta-gps a:hover, .contact__meta-gps a:focus, .contact__meta-tel a:hover, .contact__meta-tel a:focus, .contact__meta-email a:hover, .contact__meta-email a:focus, .contact__meta-website a:hover, .contact__meta-website a:focus {
   font-size: 20px;
   color: #e47ffd;
 }

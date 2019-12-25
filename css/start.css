@@ -59,25 +59,16 @@ input:-ms-input-placeholder {
 
 button {
   cursor: pointer;
-  text-decoration: none;
 }
 
 button::-moz-focus-inner {
   padding: 0;
   border: 0;
-  text-decoration: none;
-}
-
-a, a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
 }
 
 ul li {
   list-style: none;
+  outline-style: none;
 }
 
 img {
@@ -195,11 +186,12 @@ body {
   text-align: center;
   text-decoration: none;
 }
-.start__button button:hover {
+.start__button button:hover, .start__button button:focus {
   width: 280px;
   height: 90px;
   background: black;
   color: white;
+  outline: none;
 }
 .start__button button p {
   -webkit-transform: rotate(7deg);
@@ -254,9 +246,10 @@ body {
     top: 50%;
   }
 }
-.business button:hover {
+.business button:hover, .business button:focus {
   width: 350px;
   height: 60px;
   background: black;
   color: white;
+  outline: none;
 }

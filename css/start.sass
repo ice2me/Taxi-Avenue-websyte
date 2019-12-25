@@ -41,17 +41,18 @@ input
 		text-overflow: ellipsis
 button
 	cursor: pointer
-	text-decoration: none
+	// text-decoration: none
 button::-moz-focus-inner
 	padding: 0
 	border: 0
-	text-decoration: none
-a,a:visited
-	text-decoration: none
-a:hover
-	text-decoration: none
+	// text-decoration: none
+// a,a:visited
+// 	text-decoration: none
+// a:hover
+// 	text-decoration: none
 ul li
 	list-style: none
+	outline-style: none
 img
 	vertical-align: top
 h1,h2,h3,h4,h5,h6
@@ -136,7 +137,6 @@ body
 		display: flex
 		flex-wrap: wrap
 		justify-content: space-around
-		a
 		button
 			width: 270px
 			height: 80px
@@ -150,11 +150,12 @@ body
 			font-weight: bold
 			text-align: center
 			text-decoration: none
-			&:hover
+			&:hover, &:focus
 				width: 280px
 				height: 90px
 				background: black
 				color: white
+				outline: none
 			p
 				-webkit-transform: rotate(7deg)
 				-moz-transform: rotate(7deg)
@@ -195,9 +196,9 @@ body
 		@media(max-width: 520px)
 			left: 52%
 			top: 50%
-		&:hover
+		&:hover, &:focus
 			width: 350px
 			height: 60px
 			background: black
 			color: white
-
+			outline: none
