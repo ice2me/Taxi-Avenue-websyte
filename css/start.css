@@ -133,7 +133,7 @@ body {
 
 .start {
   height: 100%;
-  background: url("../img/fony_13.jpg");
+  background-color: #c1c0bf;
   -webkit-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
@@ -187,7 +187,7 @@ body {
   background: #EF9C17;
   border: 1px solid grey;
   -webkit-border-radius: 8px;
-  font-size: 45px;
+  font-size: 35px;
   border-radius: 8px;
   margin: 50px 30px;
   font-family: "Shadows Into Light", cursive;
@@ -196,8 +196,8 @@ body {
   text-decoration: none;
 }
 .start__button button:hover {
-  width: 300px;
-  height: 100px;
+  width: 280px;
+  height: 90px;
   background: black;
   color: white;
 }
@@ -211,7 +211,7 @@ body {
 
 .business {
   width: 80%;
-  height: 60px;
+  height: 40px;
   margin: 0 auto;
   display: flex;
   -webkit-justify-content: center;
@@ -220,7 +220,7 @@ body {
 .business button {
   width: 400px;
   height: 60px;
-  background: #EF9C17;
+  background: #0087d2;
   border: 1px solid grey;
   -webkit-border-radius: 8px;
   font-size: 32px;
@@ -234,7 +234,7 @@ body {
   .business button {
     font-size: 22px;
     width: 350px;
-    height: 60px;
+    height: 35px;
     font-size: 28px;
     transform: rotate(-90deg);
     position: absolute;
@@ -255,8 +255,8 @@ body {
   }
 }
 .business button:hover {
-  width: 240px;
-  height: 120px;
+  width: 350px;
+  height: 60px;
   background: black;
   color: white;
 }

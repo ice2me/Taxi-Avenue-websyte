@@ -174,7 +174,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .menu li a:hover {
-  background: #ef9c17;
+  background: #a07aff;
   -webkit-border-radius: 3px;
   border-radius: 3px;
   color: #000;
@@ -271,7 +271,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .header__number h3 {
   font-size: 35px;
-  color: #ef9c17;
+  color: #a07aff;
   font-weight: bold;
   padding: 10px 0;
 }
@@ -300,7 +300,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .best {
   width: 100%;
-  background-color: #ef9c17;
+  background-color: #a07aff;
   padding: 25% 5% 2% 5%;
   display: flex;
   -webkit-justify-content: space-around;
@@ -351,7 +351,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 50px;
   font-size: 20px;
   background: black;
-  color: #ef9c17;
+  color: #a07aff;
   -webkit-border-radius: 7px;
   border-radius: 7px;
 }
@@ -366,7 +366,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 40%;
   padding: 40px 0 0 0;
   font-size: 38px;
-  color: #ef9c17;
+  color: #a07aff;
   padding: 0 0 0 10px;
 }
 @media (max-width: 900px) {
@@ -384,7 +384,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .box {
   height: 330px;
-  border: 2px solid #ef9c17;
+  border: 2px solid #a07aff;
   text-align: center;
 }
 .box__name {
@@ -420,7 +420,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 50px;
   font-size: 20px;
   background: black;
-  color: #ef9c17;
+  color: #a07aff;
   -webkit-border-radius: 7px;
   border-radius: 7px;
 }
@@ -453,7 +453,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 50px;
   font-weight: bold;
   font-size: 50px;
-  color: #ef9c17;
+  color: #a07aff;
 }
 .tariffs__name span {
   font-size: 60px;
@@ -553,7 +553,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 50px;
   font-size: 20px;
-  background: #ef9c17;
+  background: #a07aff;
   color: black;
   -webkit-border-radius: 7px;
   border-radius: 7px;
@@ -591,7 +591,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .wish__titel-name {
   font-size: 30px;
-  color: #ef9c17;
+  color: #a07aff;
 }
 .wish__titel-text {
   font-size: 40px;
@@ -636,10 +636,10 @@ h1, h2, h3, h4, h5, h6 {
 .wish__img {
   width: 80px;
   height: 80px;
-  border: 1px solid #ef9c17;
+  border: 1px solid #a07aff;
   -webkit-border-radius: 100%;
   border-radius: 100%;
-  background: #ef9c17;
+  background: #a07aff;
 }
 .wish__img img {
   position: relative;
@@ -660,7 +660,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 22px;
   text-align: left;
   padding: 20px 0 15px 0;
-  color: #ef9c17;
+  color: #a07aff;
 }
 .home__content span, .bonuses__content span,
 .fast__content span, .gps__content span {
@@ -680,7 +680,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 170px;
   height: 50px;
   font-size: 20px;
-  background: #ef9c17;
+  background: #a07aff;
   color: black;
   -webkit-border-radius: 7px;
   border-radius: 7px;
@@ -689,7 +689,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 170px;
   height: 50px;
   background: black;
-  color: #ef9c17;
+  color: #a07aff;
 }
 
 .cabServies {
@@ -708,7 +708,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .cabServies__name span {
   font-size: 30px;
-  color: #ef9c17;
+  color: #a07aff;
   font-weight: bold;
 }
 .cabServies__body {
@@ -804,7 +804,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 130px 0 100px 0;
 }
 .clients__name h2 {
-  color: #ef9c17;
+  color: #a07aff;
   font-size: 30px;
 }
 .clients__name span {
@@ -858,7 +858,7 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
 }
 .clients__info-text h3 {
-  color: #ef9c17;
+  color: #a07aff;
   font-size: 35px;
   padding: 3px 18px 0 18px;
 }
@@ -877,7 +877,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .call24Hour {
   height: 300px;
-  background: #ef9c17;
+  background: #a07aff;
   display: flex;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
@@ -983,7 +983,7 @@ footer {
   color: #d1d1d1;
   font-size: 25px;
   padding-bottom: 50px;
-  border-bottom: 7px solid #ef9c17;
+  border-bottom: 7px solid #a07aff;
 }
 .hub__text {
   color: #d1d1d1;
@@ -1011,7 +1011,7 @@ footer {
   color: #d1d1d1;
   font-size: 25px;
   padding-bottom: 50px;
-  border-bottom: 7px solid #ef9c17;
+  border-bottom: 7px solid #a07aff;
 }
 .download__text {
   color: #d1d1d1;
@@ -1025,7 +1025,7 @@ footer {
   padding: 0 20px 15px 0;
 }
 .download__android a {
-  color: #ef9c17;
+  color: #a07aff;
   padding-top: 10px;
   font-size: 20px;
 }
@@ -1047,7 +1047,7 @@ footer {
   padding: 25px 20px 15px 0;
 }
 .download__ios a {
-  color: #ef9c17;
+  color: #a07aff;
   font-size: 20px;
 }
 .download__ios a:hover {
@@ -1087,7 +1087,7 @@ footer {
   color: #d1d1d1;
   font-size: 25px;
   padding-bottom: 50px;
-  border-bottom: 7px solid #ef9c17;
+  border-bottom: 7px solid #a07aff;
 }
 .contact__info {
   padding: 70px 15px 45px 15px;
@@ -1113,7 +1113,7 @@ footer {
 }
 .contact__meta-gps a:hover, .contact__meta-tel a:hover, .contact__meta-email a:hover, .contact__meta-website a:hover {
   font-size: 20px;
-  color: #ef9c17;
+  color: #a07aff;
 }
 .contact__meta-gps img, .contact__meta-tel img, .contact__meta-email img, .contact__meta-website img {
   padding-right: 20px;
