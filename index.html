@@ -5,6 +5,8 @@
 	<meta name="viewport" content="width=device-width">
 	<meta http-equiv="X-UA_Compatible" content="ie=edge">
 	<title>Taxi</title>
+	<script src="js/three.r92.min.js"></script>
+	<script src="js/vanta.birds.min.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Shadows+Into+Light&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/start.css">
 </head>
@@ -17,7 +19,7 @@
 	</div>
 
 	<section>
-		<div class="start">
+		<div class="start" id="start">
 			<div class="start__name">
 				<h1> Taxi</h1>
 				<h2>welcome...</h2>
@@ -57,18 +59,30 @@
 
 
 
-	<script
-		type="text/javascript"
-		src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js">
-		</script>
-	<script type="text/javascript">
+
+
+
+
+<script>
+VANTA.BIRDS({
+el: "#start",
+backgroundColor: 0x685d82,
+color1: 0xa320d9,
+color2: 0x423ca4
+})
+</script>
+<script 
+	type="text/javascript"
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js">
+</script>
+<script type="text/javascript">
 		$(window).on("load", function() {
 		var $preloader = $("#p_prldr"),
 			$svg_anm = $preloader.find(".svg_anm");
 			$svg_anm.fadeOut();
-			$preloader.delay(250).fadeOut("fast");
+			$preloader.delay(50).fadeOut("fast");
 		});
-	</script>
+</script>
 <script src="js/main.js"></script>
 </body>
 </html>

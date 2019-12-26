@@ -124,10 +124,6 @@ body {
 
 .start {
   height: 100%;
-  background-color: #c1c0bf;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   filter: alpha(Opacity=90);
   opacity: 0.9;
   margin: 0;
@@ -237,6 +233,7 @@ body {
 }
 @media(max-width: 610px) {
   .business button {
+    position: fixed;
     left: 55%;
   }
 }
