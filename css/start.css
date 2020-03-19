@@ -3,12 +3,13 @@
   padding: 0;
   margin: 0;
   border: 0;
-  transition: 0.5s ease-in-out;
-  box-sizing: border-box;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 *:before *:after {
-  -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
@@ -27,7 +28,7 @@ html, body {
   font-size: 100%;
   line-height: 1;
   font-size: 14px;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -46,11 +47,13 @@ input::-webkit-input-placeholder {
   padding: 10px;
   text-overflow: ellipsis;
 }
+
 input::-moz-placeholder {
   color: grey;
   padding: 10px;
   text-overflow: ellipsis;
 }
+
 input:-ms-input-placeholder {
   color: grey;
   padding: 10px;
@@ -80,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: inherit;
 }
 
-/*--------------------Start--Project----------------------- */
+/*--------------------Start--Project-----------------------*/
 /*-------------------Прелоадер--------------  */
 #p_prldr {
   position: fixed;
@@ -131,43 +134,58 @@ body {
   top: 0;
   left: 0;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: column;
   -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-align-items: center;
-  align-items: center;
-  -webkit-justify-content: center;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
 .start__name {
   -ms-text-align-last: center;
   text-align-last: center;
 }
+
 .start__name h1 {
   font-size: 100px;
   color: #ef9c17;
-  font-family: "Permanent Marker", cursive;
+  font-family: 'Permanent Marker', cursive;
   font-weight: bold;
   padding-bottom: 20px;
 }
-@media(max-width: 586px) {
+
+@media (max-width: 586px) {
   .start__name h1 {
     font-size: 70px;
   }
 }
+
 .start__name h2 {
   font-size: 40px;
   color: black;
-  font-family: "Permanent Marker", cursive;
+  font-family: 'Permanent Marker', cursive;
   font-weight: bold;
 }
+
 .start__button {
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
+
 .start__button button {
   width: 270px;
   height: 80px;
@@ -177,11 +195,12 @@ body {
   font-size: 35px;
   border-radius: 8px;
   margin: 50px 30px;
-  font-family: "Shadows Into Light", cursive;
+  font-family: 'Shadows Into Light', cursive;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
 }
+
 .start__button button:hover, .start__button button:focus {
   width: 280px;
   height: 90px;
@@ -189,11 +208,9 @@ body {
   color: white;
   outline: none;
 }
+
 .start__button button p {
   -webkit-transform: rotate(7deg);
-  -moz-transform: rotate(7deg);
-  -ms-transform: rotate(7deg);
-  -o-transform: rotate(7deg);
   transform: rotate(7deg);
 }
 
@@ -201,10 +218,14 @@ body {
   width: 80%;
   height: 40px;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  -webkit-justify-content: center;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
 .business button {
   width: 400px;
   height: 60px;
@@ -218,31 +239,36 @@ body {
   text-align: center;
   text-decoration: none;
 }
-@media(max-width: 654px) {
+
+@media (max-width: 654px) {
   .business button {
     font-size: 22px;
     width: 350px;
     height: 35px;
     font-size: 28px;
-    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
     position: absolute;
     top: 51%;
     left: 60%;
     margin: 0 auto;
   }
 }
-@media(max-width: 610px) {
+
+@media (max-width: 610px) {
   .business button {
     position: fixed;
     left: 55%;
   }
 }
-@media(max-width: 520px) {
+
+@media (max-width: 520px) {
   .business button {
     left: 52%;
     top: 50%;
   }
 }
+
 .business button:hover, .business button:focus {
   width: 350px;
   height: 60px;
@@ -250,3 +276,4 @@ body {
   color: white;
   outline: none;
 }
+/*# sourceMappingURL=start.css.map */
